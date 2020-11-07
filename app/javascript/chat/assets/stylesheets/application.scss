@@ -111,6 +111,9 @@ body {
 }
 
 .channel-editor {
+  position: absolute;
+  bottom: 10;
+  width: 80%;
   display: flex;
   padding: 20px;
   box-sizing: border-box;
