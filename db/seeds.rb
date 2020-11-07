@@ -13,10 +13,10 @@ channels = Channel.all
 
 puts 'Channels created!'
 
-dio = User.new(email: 'dio@brando.com', password:'iamevil')
+dio = User.new(email: 'dio@brando.com', password:'iamevil', nickname: 'Dio')
 dio.save!
 
-jojo = User.new(email: 'jojo@joestar.com', password:'iamnotevil')
+jojo = User.new(email: 'jojo@joestar.com', password:'iamnotevil', nickname: 'Jojo')
 jojo.save!
 
 users = [dio, jojo]
